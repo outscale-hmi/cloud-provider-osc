@@ -4,21 +4,21 @@ version: 2
 updates:
   - package-ecosystem: "gomod"
     directory: "/"
-    target-branch: "v2"
+    target-branch: "OSC-MIGRATION"
     schedule:
       interval: "daily"
   - package-ecosystem: "gomod"
-    directory: "/v2"
-    target-branch: "v2"
+    directory: "/cloud-controller-manager"
+    target-branch: "OSC-MIGRATION"
     schedule:
       interval: "daily"
   - package-ecosystem: "gomod"
     directory: "/"
-    target-branch: "v1"
+    target-branch: "osc-sdk"
     schedule:
       interval: "daily"
   - package-ecosystem: "gomod"
-    directory: "/osc"
-    target-branch: "v1"
+    directory: "/cloud-controller-manager"
+    target-branch: "osc-sdk"
     schedule:
       interval: "daily"
